@@ -1,0 +1,28 @@
+.link {
+  text-decoration: none;
+}
+.wrapper_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  margin-top: 25px;
+}
+.wrapper {
+  margin-top: 50px;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.price {
+  text-align: right;
+}
+
+.basket__totals {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

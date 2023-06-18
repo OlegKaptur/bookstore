@@ -1,0 +1,29 @@
+.wrapper {
+  margin-top: 70px;
+}
+.wrapper_title {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.wrapper_button {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: var(--main-bg-color);
+}
+
+.random {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 30px;
+}

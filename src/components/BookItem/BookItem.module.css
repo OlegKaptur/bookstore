@@ -1,0 +1,60 @@
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper {
+  height: 100%;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px 0px rgba(34, 60, 80, 0.2);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.wrapper:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 2px 20px 0px rgba(34, 60, 80, 0.3);
+}
+
+.wrapper_bg {
+  overflow: hidden;
+  background-color: var(--book--img-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.wrapper_info {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.info .title {
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.info .price {
+  margin-bottom: 8px;
+}
+
+.wrapper_price {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info .subtitle {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

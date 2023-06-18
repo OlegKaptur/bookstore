@@ -1,0 +1,12 @@
+.display {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin-top: 40px;
+}
+
+.link {
+  text-decoration: none;
+}

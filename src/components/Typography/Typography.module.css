@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+.primary {
+  color: var(--text-primary);
+}
+
+.secondary {
+  color: var(--text-secondary);
+}
+
+.bebasNeue {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.h1,
+.h2 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+}
+.h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.span {
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 28px;
+}
